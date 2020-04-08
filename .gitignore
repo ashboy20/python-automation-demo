@@ -1,5 +1,5 @@
 reports
-.idea/*
+.idea
 .pytest_cache/*
 apps/aos/*
 apps/ios/*
