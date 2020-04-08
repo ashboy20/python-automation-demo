@@ -14,7 +14,7 @@ pipenv install
 
 `config.json` will decide which platform you are going to execution automation and the desired capabilities for appium driver are located at `/tests/test_my_observatory.py`.
 
-After configuration have been done, run this command to start automation starting:
+After configuration have been done, run this command with appium server started:
 ```shell script
 pipenv run python -m pytest --html=reports/report.html
 ```
