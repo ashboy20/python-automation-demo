@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest-html = "*"
+v = {editable = true,version = "*"}
+
+[packages]
+pytest = "*"
+appium = "*"
+appium-python-client = "*"
+pytest-bbd = "*"
+pytest-bdd = "*"
+
+[requires]
+python_version = "3.7"
